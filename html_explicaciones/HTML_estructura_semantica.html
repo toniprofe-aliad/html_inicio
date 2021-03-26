@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <meta name="autor" content="Toni Ferrà" />
+        <!-- SEO -->
+        <!-- Google 2021 -->
+        <title>Los mejores Zapatos ZapaTUS</title>
+        <!-- Google 2021 -->
+        <meta name="description" content="Ven a comprar mis super zapatos creados 100% en la isla de Mallorca.">
+
     </head>
     <body>
         <!-- Estructura Semántica -->
@@ -12,37 +18,111 @@
         <!-- SIEMPRE vísible en todos los HTML -->
         <!-- logo, menu, banner -->
         <header>
+            
             <!-- Logo -->
             <!-- jpg, png, svg -->
             <!-- SVG, siempre que se pueda -->
-            <img width="80px" src="./img/logo_nike.jpg" alt="logotipo nike">
+            <img width="80px" src="../img/logo_nike.jpg" alt="logotipo nike" />
 
             <!-- menu -->
             <!-- Inicio Servicios Contactar -->
             <!-- Enlaces / links -->
             <a></a>
             <a href=""></a>
+        
             <!-- Enlaces internos -->
-            <a href="../index.html">Inicio</a>
-            <a href="../servicios.html">Servicios</a>
-            <a href="../contactar.html">Contactar</a>
-            
-            <!-- Enlaces Externos -->
-            <a href="http://www.nike.com" target="_blank">NIKE</a>
-            <!-- banner -->
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../servicios.html">Servicios</a>
+                <a href="../contactar.html">Contactar</a>
+            </nav>
 
+            <!-- banner -->
+            <!-- Banner no es un Slider(auto/manual) -->
+            <img src="../img/banner_mallorca.jpg" alt="mallorca playa">
             
         </header>
         <!-- MAIN -->
         <!-- Es la estructura CAMBIANTE dentro del proyecto web -->
         <main>
-            <h4>Hola a esta web</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam assumenda soluta adipisci a est laborum tempora doloremque officia consequatur unde rerum facilis, dolorem nihil culpa in aspernatur eveniet fugit quam.</p>
+            <section></section>
+            <article></article>
+            <aside></aside>
+
+            <h4>Artículo Uno</h4>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Numquam assumenda soluta adipisci a est laborum tempora
+                doloremque officia consequatur unde rerum facilis, dolorem nihil
+                culpa in aspernatur eveniet fugit quam.
+            </p>
         </main>
 
         <!-- FOOTER -->
         <!-- SIEMPRE vísible en todos los HTML -->
         <!-- recuerdo de menu, copyright, temas legales, información extra, redes sociales -->
-        <footer></footer>
+        <footer>
+            <!-- Enlaces Externos -->
+            <a href="http://www.nike.com" target="_blank">NIKE</a>
+
+            <!-- LISTAS en HTML -->
+            <!-- OL(numerada) / UL(sin numerar) -->
+            <!-- Tienen LI(elementos) -->
+            
+            <!-- Lista numerada para documentar -->
+            <!-- <ol>
+                <li>Ferrari</li>
+                <li>Peogeout</li>
+                <li>Seat</li>
+            </ol> -->
+            <!-- Lista no numerada para documentar -->
+            <!-- <ul>
+                <li>Ferrari</li>
+                <li>Peogeout</li>
+                <li>Seat</li>
+            </ul> -->
+            <!-- Lista para estructurar-->
+            <!-- <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul> -->
+
+            <!-- Etiquetas Padre/Hijo -->
+            <!-- <p>Mis 
+                <strong>
+                    zapatos
+                </strong> 
+            </p> -->
+
+            <!-- lista de enlaces en el footer -->
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="../servicios.html">Servicios</a>
+                    
+                </li>
+                <li>
+                    <a href="../contactar.html">Contactar</a>
+
+                </li>
+            </ul>
+
+            <!-- lista de enlaces a redes sociales -->
+            <ul>
+                <li>
+                    <a href="http://facebook.com/nuestramarca" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="http://twitter.com/nuestramarca" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <a href="http://youtube.com/nuestramarca" target="_blank">Youtube</a>
+                </li>
+            </ul>
+
+        </footer>
     </body>
 </html>
