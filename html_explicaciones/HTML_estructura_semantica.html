@@ -11,6 +11,35 @@
         <!-- Google 2021 -->
         <meta name="description" content="Ven a comprar mis super zapatos creados 100% en la isla de Mallorca.">
 
+        <!-- SEO AVANZADO -->
+                <!-- Metadatos Web -->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <meta name="autor" content="Toni Ferrà" />
+            
+                <!-- HTML Meta Tags -->
+                <title>Vecinos</title>
+                <meta name="description" content="Vecinos es una app para sociabiliar con la gente más próxima a tu hogar">
+            
+                <!-- Google / Search Engine Tags -->
+                <meta itemprop="name" content="Vecinos">
+                <meta itemprop="description" content="Vecinos es una app para sociabiliar con la gente más próxima a tu hogar">
+                <meta itemprop="image" content="http://">
+            
+                <!-- Facebook Meta Tags -->
+                <meta property="og:url" content="http://">
+                <meta property="og:type" content="website">
+                <meta property="og:title" content="Vecinos">
+                <meta property="og:description" content="Vecinos es una app para sociabiliar con la gente más próxima a tu hogar">
+                <meta property="og:image" content="http://">
+            
+                <!-- Twitter Meta Tags -->
+                <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:title" content="Vecinos">
+                <meta name="twitter:description" content="Vecinos es una app para sociabiliar con la gente más próxima a tu hogar">
+                <meta name="twitter:image" content="http://">
+
     </head>
     <body>
         <!-- Estructura Semántica -->
@@ -40,6 +69,20 @@
             <!-- banner -->
             <!-- Banner no es un Slider(auto/manual) -->
             <img src="../img/banner_mallorca.jpg" alt="mallorca playa">
+
+            <!-- WEBp convierte desde JPG/PNG/GIF -->
+            <picture>
+                <!-- Navegador te voy a enviar un webp -->
+                <source srcset="../img/Gato.webp" type="image/webp">
+                <!-- Navegador sino entiendes el webp, te dejo un jpg -->
+                <source srcset="../img/Gato.png" type="image/jpeg">
+                
+                <!-- OBLIGATORIA -->
+                <!-- Sino entiendes nada aqui el img de siempre -->
+                <img src="../img/Gato.png" alt="portatil encima mesa">
+            </picture>
+
+
             
         </header>
         <!-- MAIN -->
